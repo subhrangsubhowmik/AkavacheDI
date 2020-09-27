@@ -1,4 +1,5 @@
-﻿using AkavacheDI.Views;
+﻿using AkavacheDI.Contracts;
+using AkavacheDI.Views;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,7 +11,7 @@ namespace AkavacheDI.ViewModels
     {
         public Command LoginCommand { get; }
 
-        public LoginViewModel()
+        public LoginViewModel(INavigationService navigationService) : base(navigationService)
         {
             LoginCommand = new Command(OnLoginClicked);
         }

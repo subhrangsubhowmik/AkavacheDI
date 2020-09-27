@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "AkavacheDI.Android.dll" comes first in this list. */
 		"AkavacheDI.Android.dll",
 		"AkavacheDI.dll",
+		"Autofac.dll",
 		"FormsViewGroup.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

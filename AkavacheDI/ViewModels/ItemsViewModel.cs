@@ -7,6 +7,7 @@ using Xamarin.Forms;
 
 using AkavacheDI.Models;
 using AkavacheDI.Views;
+using AkavacheDI.Contracts;
 
 namespace AkavacheDI.ViewModels
 {
@@ -19,7 +20,7 @@ namespace AkavacheDI.ViewModels
         public Command AddItemCommand { get; }
         public Command<Item> ItemTapped { get; }
 
-        public ItemsViewModel()
+        public ItemsViewModel(INavigationService navigationService) : base(navigationService)
         {
             Title = "Browse";
             Items = new ObservableCollection<Item>();

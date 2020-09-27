@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
+using AkavacheDI.Contracts;
 using AkavacheDI.Models;
 using Xamarin.Forms;
 
@@ -13,6 +14,13 @@ namespace AkavacheDI.ViewModels
         private string text;
         private string description;
         public string Id { get; set; }
+
+
+        public ItemDetailViewModel(INavigationService navigationService) : base(navigationService)
+        {
+            
+        }
+
 
         public string Text
         {

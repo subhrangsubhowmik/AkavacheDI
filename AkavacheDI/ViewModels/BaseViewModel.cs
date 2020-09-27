@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using AkavacheDI.Models;
 using AkavacheDI.Services;
 using AkavacheDI.Contracts;
+using System.Threading.Tasks;
 
 namespace AkavacheDI.ViewModels
 {
@@ -61,5 +62,11 @@ namespace AkavacheDI.ViewModels
             changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
         #endregion
+
+
+        public virtual Task InitializeAsync(object data)
+        {
+            return Task.FromResult(false);
+        }
     }
 }

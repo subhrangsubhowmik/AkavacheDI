@@ -21,7 +21,7 @@ namespace AkavacheDI.Views
         {
             InitializeComponent();
 
-            BindingContext = _viewModel = new ItemsViewModel();
+            //BindingContext = _viewModel = new ItemsViewModel();
         }
 
         protected override void OnAppearing()

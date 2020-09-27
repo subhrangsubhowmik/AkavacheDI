@@ -16,7 +16,7 @@ namespace AkavacheDI.Views
         public NewItemPage()
         {
             InitializeComponent();
-            BindingContext = new NewItemViewModel();
+            //BindingContext = new NewItemViewModel();
         }
     }
 }

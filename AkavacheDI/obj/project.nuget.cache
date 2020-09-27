@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bFPcxSbjk6P/fLodsSfIHY6mlNR/IadjY2tn/1BM1sec2Tgt++wCESVigxa1yhYwGl4HlJ4VQwHrJLq1qSNi7w==",
+  "dgSpecHash": "YFEXgQ31hfSPnIt+fUntyOg+V8RAw+dUqL96a7INM6fOM03ChknruEZXMDn8hQVeJUwBDFZLhJfdy7E0wW+kig==",
   "success": true,
-  "projectFilePath": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI\\AkavacheDI.csproj",
+  "projectFilePath": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI\\AkavacheDI\\AkavacheDI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bhowsub\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
     "C:\\Users\\bhowsub\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

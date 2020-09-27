@@ -106,42 +106,57 @@ namespace AkavacheDI.Services
             //{
             //    CurrentApplication.MainPage = page;
             //}
-            else if (Application.Current.MainPage is MainView)
-            {
-                var mainPage = Application.Current.MainPage as MainView;
-
-                if (mainPage.Detail is BethanyNavigationPage navigationPage)
-                {
-                    var currentPage = navigationPage.CurrentPage;
-
-                    if (currentPage.GetType() != page.GetType())
-                    {
-                        await navigationPage.PushAsync(page);
-                    }
-                }
-                else
-                {
-                    navigationPage = new BethanyNavigationPage(page);
-                    mainPage.Detail = navigationPage;
-                }
-
-                mainPage.IsPresented = false;
-            }
             else
             {
-                var navigationPage = Application.Current.MainPage as BethanyNavigationPage;
-
+                var navigationPage = Application.Current.MainPage as AkavacheDIPage;
                 if (navigationPage != null)
                 {
                     await navigationPage.PushAsync(page);
                 }
                 else
                 {
-                    Application.Current.MainPage = new BethanyNavigationPage(page);
+                    Application.Current.MainPage = new AkavacheDIPage(page);
                 }
             }
 
             await (page.BindingContext as BaseViewModel).InitializeAsync(parameter);
+
+            //else if (Application.Current.MainPage is MainView)
+            //{
+            //    var mainPage = Application.Current.MainPage as MainView;
+
+            //    if (mainPage.Detail is BethanyNavigationPage navigationPage)
+            //    {
+            //        var currentPage = navigationPage.CurrentPage;
+
+            //        if (currentPage.GetType() != page.GetType())
+            //        {
+            //            await navigationPage.PushAsync(page);
+            //        }
+            //    }
+            //    else
+            //    {
+            //        navigationPage = new BethanyNavigationPage(page);
+            //        mainPage.Detail = navigationPage;
+            //    }
+
+            //    mainPage.IsPresented = false;
+            //}
+            //else
+            //{
+            //    var navigationPage = Application.Current.MainPage as BethanyNavigationPage;
+
+            //    if (navigationPage != null)
+            //    {
+            //        await navigationPage.PushAsync(page);
+            //    }
+            //    else
+            //    {
+            //        Application.Current.MainPage = new BethanyNavigationPage(page);
+            //    }
+            //}
+
+            //await (page.BindingContext as BaseViewModel).InitializeAsync(parameter);
         }
     }
 }

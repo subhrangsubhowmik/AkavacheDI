@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xLKNy6mS+WeXJv75R7SaixosgEO0NonQHPWSv41x8BA3w59Sj7/gey57gWn3D//2DTrkCOvRHxFiVFLi4hw5Vg==",
+  "dgSpecHash": "Nf3DZ/iTAbXsbeyN1Cs/JfCEKU3+4zCq30yjDrCy6Cotw6xzqX+pn+rj0AlVk5Q44wR6Q6/AGV6RGLcKFkIMrA==",
   "success": true,
-  "projectFilePath": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI.Android\\AkavacheDI.Android.csproj",
+  "projectFilePath": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI\\AkavacheDI.Android\\AkavacheDI.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bhowsub\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
     "C:\\Users\\bhowsub\\.nuget\\packages\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

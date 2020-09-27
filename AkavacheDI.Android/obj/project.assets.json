@@ -1967,11 +1967,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI.Android\\AkavacheDI.Android.csproj",
+      "projectUniqueName": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI\\AkavacheDI.Android\\AkavacheDI.Android.csproj",
       "projectName": "AkavacheDI.Android",
-      "projectPath": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI.Android\\AkavacheDI.Android.csproj",
+      "projectPath": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI\\AkavacheDI.Android\\AkavacheDI.Android.csproj",
       "packagesPath": "C:\\Users\\bhowsub\\.nuget\\packages\\",
-      "outputPath": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI.Android\\obj\\",
+      "outputPath": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI\\AkavacheDI.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1993,8 +1993,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI\\AkavacheDI.csproj": {
-              "projectPath": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI\\AkavacheDI.csproj"
+            "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI\\AkavacheDI\\AkavacheDI.csproj": {
+              "projectPath": "D:\\SubhrangsuB\\Solutions\\XamarinPractice\\AkavacheDI\\AkavacheDI\\AkavacheDI\\AkavacheDI.csproj"
             }
           }
         }

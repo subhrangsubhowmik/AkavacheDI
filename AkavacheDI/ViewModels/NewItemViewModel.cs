@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
+using AkavacheDI.Contracts;
 using AkavacheDI.Models;
 using Xamarin.Forms;
 
@@ -12,7 +13,7 @@ namespace AkavacheDI.ViewModels
         private string text;
         private string description;
 
-        public NewItemViewModel()
+        public NewItemViewModel(INavigationService navigationService) : base(navigationService)
         {
             SaveCommand = new Command(OnSave, ValidateSave);
             CancelCommand = new Command(OnCancel);
