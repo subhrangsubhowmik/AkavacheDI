@@ -34,3 +34,4 @@ D:\SubhrangsuB\Solutions\XamarinPractice\AkavacheDI\AkavacheDI\AkavacheDI\bin\De
 D:\SubhrangsuB\Solutions\XamarinPractice\AkavacheDI\AkavacheDI\AkavacheDI\bin\Debug\netstandard2.0\ref\AkavacheDI.dll
 D:\SubhrangsuB\Solutions\XamarinPractice\AkavacheDI\AkavacheDI\AkavacheDI\bin\Debug\netstandard2.0\AkavacheDI.pdb
 D:\SubhrangsuB\Solutions\XamarinPractice\AkavacheDI\AkavacheDI\AkavacheDI\obj\Debug\netstandard2.0\XamlC.stamp
+D:\SubhrangsuB\Solutions\XamarinPractice\AkavacheDI\AkavacheDI\AkavacheDI\obj\Debug\netstandard2.0\AkavacheDI.csprojAssemblyReference.cache

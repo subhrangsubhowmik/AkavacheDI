@@ -13,21 +13,34 @@ namespace AkavacheDI.Services
     class NavigationService : INavigationService
     {
         private readonly Dictionary<Type, Type> _mappings;
+
+        protected Application CurrentApplication => Application.Current;
         public NavigationService()
         {
             _mappings = new Dictionary<Type, Type>();
             CreatePageViewModelMappings();
         }
+
+
+        public async Task InitializeAsync()
+        {
+            await NavigateToAsync<LoginViewModel>();
+            //if (_authenticationService.IsUserAuthenticated())
+            //{
+            //    await NavigateToAsync<MainViewModel>();
+            //}
+            //else
+            //{
+            //    await NavigateToAsync<LoginViewModel>();
+            //}
+        }
+
         public Task ClearBackStack()
         {
             throw new NotImplementedException();
         }
 
-        public Task InitializeAsync()
-        {
-            throw new NotImplementedException();
-        }
-
+       
         public Task NavigateBackAsync()
         {
             throw new NotImplementedException();
@@ -35,7 +48,7 @@ namespace AkavacheDI.Services
 
         public Task NavigateToAsync<TViewModel>() where TViewModel : BaseViewModel
         {
-            throw new NotImplementedException();
+            return InternalNavigateToAsync(typeof(TViewModel), null);
         }
 
         public Task NavigateToAsync<TViewModel>(object parameter) where TViewModel : BaseViewModel
